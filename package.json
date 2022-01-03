@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Final Project backend",
   "main": "app.js",
+  "engines": {
+    "npm": ">=6.0.0",
+    "node": ">=15.0.0"
+  },
   "scripts": {
     "start": "cross-env NODE_ENV=production node app.js",
     "server": "nodemon app.js",
